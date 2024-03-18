@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Predicción</title>
+</head>
+<body>
+    <h2>Formulario de Predicción</h2>
+    <form action="/predecir" method="post">
+        Nº Habitaciones: <input type="text" name="habitaciones"><br>
+        Superficie (m2): <input type="text" name="superficie"><br>
+        <label for="categoria">Barrio:</label>
+        <select name="barrio" id="barrio">
+            <option value="A">Arganzuela</option>
+            <option value="B">Barajas</option>
+            <option value="C">Barrio de Salamanca</option>
+            <option value="C2">Centro</option>
+            <option value="D">Carabanchel</option>
+            <option value="E">Chamartin</option>
+            <option value="F">Chamberi</option>
+            <option value="G">Ciudad Lineal</option>
+            <option value="H">Fuencarral</option>
+            <option value="I">Hortaleza</option>
+            <option value="J">Latina</option>
+            <option value="K">Moncloa</option>
+            <option value="L">Moratalaz</option>
+            <option value="M">Puente de Vallecas</option>
+            <option value="N">Retiro</option>
+            <option value="O">San Blas</option>
+            <option value="P">Tetuan</option>
+            <option value="Q">Usera</option>
+            <option value="R">Vicalvaro</option>
+            <option value="S">Villa de Vallecas</option>
+            <option value="T">Villaverde</option>
+        </select><br>
+        <label for="categoria">Piscina:</label>
+        <select name="piscina" id="piscina">
+            <option value="A">Si</option>
+            <option value="B">No</option>
+        </select><br>
+        <label for="categoria">Terraza:</label>
+        <select name="terraza" id="terraza">
+            <option value="A">Si</option>
+            <option value="B">No</option>
+        </select><br>
+        <label for="categoria">Reformado:</label>
+        <select name="reformado" id="reformado">
+            <option value="A">Si</option>
+            <option value="B">No</option>
+        </select><br>
+        <label for="categoria">Amueblado:</label>
+        <select name="amueblado" id="amueblado">
+            <option value="A">Si</option>
+            <option value="B">No</option>
+        </select><br>
+        <input type="submit" value="Predecir">
+    </form>
+</body>
+</html>
