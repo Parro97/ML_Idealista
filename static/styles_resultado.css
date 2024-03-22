@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos adicionales para mejorar la apariencia del contenedor del valor predicho */
+.result-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
