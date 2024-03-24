@@ -12,7 +12,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Cargar el modelo entrenado
-with open('modelo_entrenado NW.pkl', 'rb') as f:
+with open('modelo_entrenado.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Función para convertir la categoría seleccionada en variables dummy
